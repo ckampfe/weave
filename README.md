@@ -53,8 +53,7 @@ nil
 
 (view-dependency-graph! example)
 ```
-
-![dependency graph](http://i.imgur.com/UkNjS8d.png)
+<img src="http://i.imgur.com/UkNjS8d.png" width="200">
 
 ## License
 
