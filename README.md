@@ -54,7 +54,7 @@ nil
 (view-dependency-graph! example)
 ```
 
-
+![dependency graph](http://i.imgur.com/UkNjS8d.png)
 
 ## License
 
