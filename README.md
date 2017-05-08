@@ -6,7 +6,7 @@ I wanted to see if I could reimplement the graph bits of https://github.com/plum
 ## Use
 
 ```clojure
-(require '[weave.core :refer [fnk compile-eager compile-lazy]])
+(require '[weave.core :refer [fnk compile-eager compile-lazy view-dependency-graph!]])
 (require '[clojure.pprint])
 
 
@@ -50,7 +50,10 @@ I wanted to see if I could reimplement the graph bits of https://github.com/plum
  {:a 1, :b 2, :c 4, :d 5, :e #function[clojure.lang.AFunction/1], :f 3}
  {:a 1, :b 2, :c 4, :d 5, :e 8, :f 3})
 nil
+
+(view-dependency-graph! example)
 ```
+
 
 
 ## License
